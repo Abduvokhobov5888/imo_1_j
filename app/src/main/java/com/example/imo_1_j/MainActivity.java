@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView.setLayoutManager(new GridLayoutManager(this,1));
 
-        chats.add(new Chat(R.drawable.foto2,"Abbosbek Abduvoxobov",1));
+        chats.add(new Chat(R.drawable.foto2,"Abbosbek Abduvoxobov",3));
         chats.add(new Chat(R.drawable.foto3,"Abdulhakim Omonboyev",1));
         chats.add(new Chat(R.drawable.foto4,"Yunusbek Muqumjonov",0));
         chats.add(new Chat(R.drawable.foto5,"Muslimbek Abdurashidov",8));
